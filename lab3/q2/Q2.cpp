@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -12,9 +13,9 @@ long long max_subsequence(int i, long long &ans, vector<long long> &a){
 }
 
 int main(){
-    freopen("test_cases_Q2.txt","r",stdin);
-    freopen("output_Q2.txt","w",stdout);
-    int t; cin >> t;
+   
+    int t; cin >> t;  //10, -20, 3, 4, 5, -1, -1, 12, -3, 1
+
     while(t--){
         int n; cin >> n;
         vector<long long> a(n);
