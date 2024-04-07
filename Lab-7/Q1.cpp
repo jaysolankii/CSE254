@@ -11,8 +11,8 @@ int maximum_cost(int max_weight, vector<int> &weights, vector<int> &values){
 }
 
 int main(){
-    // freopen("test_cases_Q1.txt","r",stdin);
-    // freopen("output_Q1.txt","w",stdout);
+    freopen("test_cases_Q1.txt","r",stdin);
+    freopen("output_Q1.txt","w",stdout);
     int t; cin >> t;
     while(t--){
         int n, max_weight; cin >> n >> max_weight;

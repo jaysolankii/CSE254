@@ -33,8 +33,8 @@ int job_selection(vector<pair<int,int>> &jobs){
 }
 
 signed main(){
-    // freopen("test_cases_Q2.txt","r",stdin);
-    // freopen("output_Q2.txt","w",stdout);
+    freopen("test_cases_Q2.txt","r",stdin);
+    freopen("output_Q2.txt","w",stdout);
     int t; cin >> t;
     while(t--){
         int n; cin >> n;
